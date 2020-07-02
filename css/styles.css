@@ -140,7 +140,7 @@ header {
   max-width: fit-content;
 }
 .inner-project .arrow-i {
-  margin-top: 145%;
+    margin-top: 360%;
 }
 .hr {
   width: 9%;
@@ -152,7 +152,8 @@ header {
   background-color: #C4C4C4;
 }
 .construction {
-  max-width: 30%;
+  max-width: 50%;
+  height: 205px;
   background-color: white;
 }
 .grey-bg {
@@ -207,6 +208,10 @@ header {
 .news-container {
   background-color: #C4C4C4;
 }
+.news-container .row .col-md-12 {
+  max-width: 50%;
+  margin: auto;
+}
 .right{
   margin-top: 200% !important;
   margin-left: 40%;
@@ -233,7 +238,7 @@ header {
     margin-top: 20px !important;
   }
   .inner-project .arrow-i {
-    margin-top: 165%;
+    margin-top: 250%;
 }
 .construction {
   margin-right: 0 !important;
@@ -281,10 +286,18 @@ input {
 }
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel-indicators {
+    top: 100%;
+  }
+}
 
 @media only screen and (max-width: 426px) {
   .abt {
     padding-top: 42%;
+  }
+  .home-page-lower p {
+        padding: 0 1.5rem !important;
   }
   .blog-container .arrow {
     display: none;
@@ -295,7 +308,6 @@ input {
   }
   .construction {
     max-width: 90%;
-    margin: 40px auto !important;
   }
   .construction p {
     line-height: 30px;
@@ -305,9 +317,6 @@ input {
   }
   .news .arrow {
     display: none;
-  }
-  .news-container .row div {
-    margin-top: 20px;
   }
   .partners .row {
     padding: 0 !important;
