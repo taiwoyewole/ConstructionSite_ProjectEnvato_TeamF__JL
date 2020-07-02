@@ -172,7 +172,6 @@ body {
   color: #3A3A3A;
 }
 .arrow {
-  /* margin-top: 85px; */
   background-color: #3A3A3A;
 }
 .service-inner-container div {
@@ -300,7 +299,7 @@ input {
     text-align: center;
   }
   .footer .col-sm-12 {
-    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 
