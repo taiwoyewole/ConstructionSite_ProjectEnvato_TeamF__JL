@@ -249,9 +249,6 @@ body {
     .inner-project .arrow-i {
     margin-top: 250%;
 }
-.construction {
-  margin-right: 0 !important;
-}
 .construction p {
   font-size: 20px;
   line-height: 30px;
@@ -299,6 +296,12 @@ input {
   .carousel-indicators {
     top: 100%;
   }
+  .footer {
+    text-align: center;
+  }
+  .footer .col-sm-12 {
+    margin-top: 3rem;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -329,6 +332,9 @@ input {
   }
   .news-container .row div {
     margin-top: 20px;
+  }
+  .news-container .row .col-md-12 {
+    max-width: 100%;
   }
   .partners .row {
     padding: 0 !important;
