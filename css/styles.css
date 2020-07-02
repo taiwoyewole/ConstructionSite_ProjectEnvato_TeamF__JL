@@ -146,7 +146,7 @@ body {
   max-width: fit-content;
 }
 .inner-project .arrow-i {
-  margin-top: 145%;
+  margin-top: 360%;
 }
 .hr {
   width: 9%;
@@ -214,6 +214,10 @@ body {
 .news-container {
   background-color: #C4C4C4;
 }
+.news-container .row .col-md-12 {
+  max-width: 50%;
+  margin: auto;
+}
 .news-container p {
   font-size: 25px;
 }
@@ -242,8 +246,11 @@ body {
   .circle {
     margin-top: 20px !important;
   }
-  .inner-project .arrow-i {
-    margin-top: 165%;
+    .inner-project .arrow-i {
+    margin-top: 250%;
+}
+.construction {
+  margin-right: 0 !important;
 }
 .construction p {
   font-size: 20px;
@@ -288,6 +295,12 @@ input {
 }
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel-indicators {
+    top: 100%;
+  }
+}
+
 @media only screen and (max-width: 426px) {
   .home-page-upper a {
     margin-bottom: 0 !important;
@@ -307,7 +320,6 @@ input {
   }
   .construction {
     max-width: 90%;
-    margin: 40px auto !important;
   }
   .construction p {
     line-height: 30px;
