@@ -242,6 +242,9 @@ body {
   .inner-project img, .blog img {
     max-width: 100%;
   }
+  .house {
+    max-width: 90%
+  }
   .circle {
     margin-top: 20px !important;
   }
