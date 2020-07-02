@@ -21,7 +21,7 @@
     <div class="wrapper">
         <!-- Navbar -->
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark d-flex px-4">
+            <nav id="navbar" class="navbar navbar-expand-md navbar-dark d-flex px-4">
                 <!-- Brand -->
                 <h1 class="navbar-brand text-body">iCONSTRUCT</h1>              
                 <!-- Toggler/collapsibe Button -->
@@ -39,16 +39,16 @@
                         </form>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-body active px-2" href=".home-page">HOME</a>
+                      <a class="nav-link text-body active px-2" href="#home-page">HOME</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-body px-2" href=".service">SERVICES</a>
+                      <a class="nav-link text-body px-2" href="#service">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-body px-2" href=".blog">BLOG</a>
+                      <a class="nav-link text-body px-2" href="#blog">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-body px-2" href=".footer">CONTACT US</a>
+                        <a class="nav-link text-body px-2" href="#contact">CONTACT US</a>
                     </li>
                   </ul>
                 </div>
@@ -58,7 +58,7 @@
 
         <!-- Main -->
         <main>
-            <section class="home-page">
+            <section id="home-page">
                 <div class="home-page-div">
                     <div class="home-page-upper w-75 pt-5 text-center center">
                         <h1 class="pt-5">WE ARE iCONSTRUCT</h1>
@@ -160,7 +160,7 @@
                     </div>
                 </div>
             </section>
-            <section class="blog my-5">
+            <section id="blog" class="my-5">
                 <h2  class="font-weight-bold text-center">BLOG POSTS</h2>
                 <hr class="hr center">
                 <div class="blog-container my-5 p-5">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
             </section>
-            <section class="service">
+            <section id="service">
                 <h2 class="font-weight-bold text-center">OUR SERVICES</h2>
                 <hr class="hr center">
                 <div class="container text-center my-5">
@@ -363,7 +363,7 @@
         <!-- Main ends here -->
 
         <!-- Footer  -->
-        <footer class="footer p-5">
+        <footer id="footer" class="p-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
@@ -392,13 +392,16 @@
                             <button type="button" class="btn p-2">SUBSCRIBE</button>
                         </form>
                     </div>
-                    <div class="col-md-3 col-sm-12">
+                    <div id="contact" class="col-md-3 col-sm-12">
                         <h5 class="mb-5">GET IN TOUCH</h5>
                         <p>No 111 Federal Housing Estate Victoria Island</p>
                         <p class="mb-4">+2347055566674</p>
                         <p>iconstruct@gmail.com</p>
                     </div>
                 </div>
+                <p class="arrow-up">
+                    <a href="#navbar"><i class="fas fa-home"></i></a>
+                </p>
             </div>
         </footer>
         <!--Footer ends here -->
