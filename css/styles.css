@@ -215,11 +215,14 @@ body {
   background-color: rgba(32, 46, 49, 0.8);
   color: #fff;
 }
-.testimonial-inner-container .row {
+.testimonial-inner-container .row1 {
   background-color:  #202E31;
 }
-.row2 {
-  background-color: yellow;
+.testimonial-inner-container .row2 {
+  background-color:  #29444a;
+}
+.testimonial-inner-container .row3 {
+  background-color:  #63a0ad;
 }
 .ceo {
   padding-left: 15%;
