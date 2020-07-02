@@ -34,20 +34,20 @@ body {
 .navbar-expand-md .navbar-collapse {
   justify-content: flex-end;
 }
-.footer {
+#footer {
   background-color: #202E31;
 }
-.footer h5, .footer .small {
+#footer h5, #footer .small {
   color: #FCC139;
   font-size: 20px !important;
 }
-.footer .small {
+#footer .small {
   color: #FCC139;
 }
-.footer p {
+#footer p {
   color: #fff;
 }
-.footer input {
+#footer input {
   border: none;
   padding: 0.6rem !important;
 }
@@ -55,6 +55,25 @@ body {
   color: #202E31;
   background-color: #FCC139;
   font-weight: 600;
+}
+.arrow-up {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.arrow-up a {
+  color: #FCC139;
+  cursor: pointer;
+  font-size: 200%;
+  padding: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #eee;
+}
+.arrow-up a:hover {
+  background-color: #FCC139;
+  color: #fff;
 }
 
 
@@ -67,7 +86,7 @@ body {
 
 
 /*------------------------ MAIN -----------------------------------*/
-.home-page {
+#home-page {
   background-image: url("../img/home-banner.svg");
   background-size: cover;
   color: #fff;
@@ -96,7 +115,7 @@ body {
 .button {
   display: inline-block;
 }
-.home-page a:hover, .news-container a:hover {
+#home-page a:hover, .news-container a:hover {
   background-color: #FCC139;
   color: #000;
   font-weight: 600;
@@ -160,7 +179,7 @@ body {
 }
 .construction {
   max-width: 50%;
-  height: 250px;
+  height: 230px;
   background-color: white;
 }
 .grey-bg {
@@ -240,7 +259,7 @@ body {
   .abt h3 {
     font-size: 1.2rem;
   }
-  .house, .blog img {
+  .house, .circle, #blog img {
     max-width: 100%;
   }
   .circle {
@@ -284,7 +303,7 @@ h4 {
 .partners img {
   max-width: 80%;
 }
-.footer h5 {
+#footer h5 {
     font-size: 1rem;
 }
 input {
@@ -296,23 +315,29 @@ input {
   .carousel-indicators {
     top: 100%;
   }
-  .footer {
+  #footer {
     text-align: center;
   }
-  .footer .col-sm-12 {
+  #footer .col-sm-12 {
     margin-bottom: 3rem;
   }
 }
 
 @media only screen and (max-width: 426px) {
-  .home-page-upper a {
-    margin-bottom: 0 !important;
+  .home-page-upper p {
+    font-size: 22px;
+  }
+  .home-page-lower {
+    padding: 0 10px;
   }
   .input {
     padding: 14px 0 0 16px;
   }
   .abt {
     padding-top: 42%;
+  }
+  .home-page-lower p {
+        padding: 0 1.5rem !important;
   }
   .blog-container .arrow {
     display: none;
@@ -339,7 +364,7 @@ input {
   .partners .row {
     padding: 0 !important;
   }
-  .service .container .row {
+  #service .container .row {
     padding: 0 !important;
   }
   .service-inner-container {
@@ -350,14 +375,14 @@ input {
     text-align: center;
     padding: 0;
   }
-  .footer {
+  #footer {
     text-align: center;
   }
-  .footer h5 {
+  #footer h5 {
     padding: 40px 0 !important;
     margin: 0 !important;
   }
-  .footer .btn {
+  #footer .btn {
     margin: 20px;
   }
 }
