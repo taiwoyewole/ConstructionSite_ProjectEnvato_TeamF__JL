@@ -336,6 +336,9 @@ input {
   .abt {
     padding-top: 42%;
   }
+  .home-page-lower p {
+        padding: 0 1.5rem !important;
+  }
   .blog-container .arrow {
     display: none;
   }
