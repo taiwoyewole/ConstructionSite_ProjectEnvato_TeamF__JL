@@ -16,7 +16,10 @@ body {
 
 .navbar-brand {
   font-size: 2.25rem !important;
-  font-weight: 600;
+  font-weight: bolder;
+}
+.navbar-brand span {
+  color: #FCC139;
 }
 .navbar-dark .navbar-toggler {
   background-color: #908888;
@@ -33,6 +36,13 @@ body {
 }
 .navbar-expand-md .navbar-collapse {
   justify-content: flex-end;
+}
+.navbar-nav .nav-item input {
+  max-width: 80% !important;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-radius: 10px;
 }
 #footer {
   background-color: #202E31;
@@ -76,11 +86,14 @@ body {
   color: #fff;
 }
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navbar-brand {
     font-size: 1.7rem !important;
     font-weight: 700;
+  }
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
   }
 }
 
@@ -309,7 +322,7 @@ h4 {
 #footer h5 {
     font-size: 1rem;
 }
-input {
+#footer input {
   max-width: 60% !important;
 }
 }
